@@ -182,6 +182,7 @@ export function useGifController(
     renderPreviousFrame,
     width,
     height,
+    numFrames: state.gifReader.numFrames()
   };
 
   function play() {
