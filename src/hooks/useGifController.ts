@@ -39,6 +39,7 @@ type GifControllerResolved = {
   renderPreviousFrame: () => void;
   width: number;
   height: number;
+  numFrames: number;
 };
 
 type GifController =
